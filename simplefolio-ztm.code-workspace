@@ -10,13 +10,13 @@
 		"vscode-edge-devtools.defaultUrl": "http://localhost:1234",
 		"vscode-edge-devtools.showWorkers": true,
 		"vscode-edge-devtools.sourceMapPathOverrides": {
-			
 			"webpack:///./*": "${webRoot}/*",
 			"webpack:///src/*": "${webRoot}/*",
 			"webpack:///*": "*",
 			"webpack:///./~/*": "${webRoot}/node_modules/*",
 			"webpack://*": "${webRoot}/*",
 			"meteor://💻app/*": "${webRoot}/*"
-		}
+		},
+		"projectManager.groupList": false
 	}
 }
